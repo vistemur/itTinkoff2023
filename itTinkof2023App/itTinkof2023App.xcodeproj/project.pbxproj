@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E51F0B729F3DAB7005B03DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0B629F3DAB7005B03DC /* AppDelegate.swift */; };
+		5E51F0B929F3DAB7005B03DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0B829F3DAB7005B03DC /* SceneDelegate.swift */; };
+		5E51F0C029F3DAB9005B03DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E51F0BF29F3DAB9005B03DC /* Assets.xcassets */; };
+		5E51F0C329F3DAB9005B03DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E51F0C129F3DAB9005B03DC /* LaunchScreen.storyboard */; };
+		5E51F0D029F3DBBF005B03DC /* InitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0CD29F3DBBF005B03DC /* InitialScreenViewController.swift */; };
+		5E51F0D129F3DBBF005B03DC /* InitialScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0CE29F3DBBF005B03DC /* InitialScreenModel.swift */; };
+		5E51F0D229F3DBBF005B03DC /* InitialScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0CF29F3DBBF005B03DC /* InitialScreenViewModel.swift */; };
+		5E51F0D729F3DEF0005B03DC /* TuiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0D629F3DEF0005B03DC /* TuiCard.swift */; };
+		5E51F0D929F3E039005B03DC /* TuiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0D829F3E039005B03DC /* TuiButton.swift */; };
+		5E51F0DC29F3E12C005B03DC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0DB29F3E12C005B03DC /* Colors.swift */; };
+		5E51F0DE29F3E9B0005B03DC /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0DD29F3E9B0005B03DC /* Images.swift */; };
+		5E51F0E029F4009B005B03DC /* TuiTitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0DF29F4009B005B03DC /* TuiTitleCard.swift */; };
+		5E51F0E729F4056C005B03DC /* TuiCardPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0E429F4056C005B03DC /* TuiCardPreviewViewController.swift */; };
+		5E51F0E829F4056C005B03DC /* TuiCardPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0E529F4056C005B03DC /* TuiCardPreviewModel.swift */; };
+		5E51F0E929F4056C005B03DC /* TuiCardPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0E629F4056C005B03DC /* TuiCardPreviewViewModel.swift */; };
+		5E51F0ED29F407F3005B03DC /* TuiTitleCardPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0EA29F407F3005B03DC /* TuiTitleCardPreviewViewController.swift */; };
+		5E51F0EE29F407F3005B03DC /* TuiTitleCardPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0EB29F407F3005B03DC /* TuiTitleCardPreviewModel.swift */; };
+		5E51F0EF29F407F3005B03DC /* TuiTitleCardPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0EC29F407F3005B03DC /* TuiTitleCardPreviewViewModel.swift */; };
+		5E51F0F129F40BF5005B03DC /* TuiCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0F029F40BF5005B03DC /* TuiCardStack.swift */; };
+		5E51F0F629F41152005B03DC /* TuiCardStackPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0F329F41152005B03DC /* TuiCardStackPreviewViewController.swift */; };
+		5E51F0F729F41152005B03DC /* TuiCardStackPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0F429F41152005B03DC /* TuiCardStackPreviewModel.swift */; };
+		5E51F0F829F41152005B03DC /* TuiCardStackPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0F529F41152005B03DC /* TuiCardStackPreviewViewModel.swift */; };
+		5E51F0FC29F41442005B03DC /* TuiTitleSlimCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0FB29F41442005B03DC /* TuiTitleSlimCard.swift */; };
+		5E51F0FF29F41B05005B03DC /* TuiCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F0FE29F41B05005B03DC /* TuiCarouselView.swift */; };
+		5E51F10129F41C81005B03DC /* TuiCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F10029F41C81005B03DC /* TuiCarouselCell.swift */; };
+		5E51F10829F41FC6005B03DC /* TuiCarouselViewPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F10529F41FC6005B03DC /* TuiCarouselViewPreviewViewController.swift */; };
+		5E51F10929F41FC6005B03DC /* TuiCarouselViewPreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F10629F41FC6005B03DC /* TuiCarouselViewPreviewModel.swift */; };
+		5E51F10A29F41FC6005B03DC /* TuiCarouselViewPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E51F10729F41FC6005B03DC /* TuiCarouselViewPreviewViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E51F0B329F3DAB7005B03DC /* itTinkof2023App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itTinkof2023App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E51F0B629F3DAB7005B03DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E51F0B829F3DAB7005B03DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E51F0BF29F3DAB9005B03DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E51F0C229F3DAB9005B03DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E51F0C429F3DAB9005B03DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E51F0CD29F3DBBF005B03DC /* InitialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewController.swift; sourceTree = "<group>"; };
+		5E51F0CE29F3DBBF005B03DC /* InitialScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenModel.swift; sourceTree = "<group>"; };
+		5E51F0CF29F3DBBF005B03DC /* InitialScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewModel.swift; sourceTree = "<group>"; };
+		5E51F0D629F3DEF0005B03DC /* TuiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCard.swift; sourceTree = "<group>"; };
+		5E51F0D829F3E039005B03DC /* TuiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiButton.swift; sourceTree = "<group>"; };
+		5E51F0DB29F3E12C005B03DC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5E51F0DD29F3E9B0005B03DC /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		5E51F0DF29F4009B005B03DC /* TuiTitleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiTitleCard.swift; sourceTree = "<group>"; };
+		5E51F0E429F4056C005B03DC /* TuiCardPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardPreviewViewController.swift; sourceTree = "<group>"; };
+		5E51F0E529F4056C005B03DC /* TuiCardPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardPreviewModel.swift; sourceTree = "<group>"; };
+		5E51F0E629F4056C005B03DC /* TuiCardPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardPreviewViewModel.swift; sourceTree = "<group>"; };
+		5E51F0EA29F407F3005B03DC /* TuiTitleCardPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiTitleCardPreviewViewController.swift; sourceTree = "<group>"; };
+		5E51F0EB29F407F3005B03DC /* TuiTitleCardPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiTitleCardPreviewModel.swift; sourceTree = "<group>"; };
+		5E51F0EC29F407F3005B03DC /* TuiTitleCardPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiTitleCardPreviewViewModel.swift; sourceTree = "<group>"; };
+		5E51F0F029F40BF5005B03DC /* TuiCardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardStack.swift; sourceTree = "<group>"; };
+		5E51F0F329F41152005B03DC /* TuiCardStackPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardStackPreviewViewController.swift; sourceTree = "<group>"; };
+		5E51F0F429F41152005B03DC /* TuiCardStackPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardStackPreviewModel.swift; sourceTree = "<group>"; };
+		5E51F0F529F41152005B03DC /* TuiCardStackPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCardStackPreviewViewModel.swift; sourceTree = "<group>"; };
+		5E51F0FB29F41442005B03DC /* TuiTitleSlimCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiTitleSlimCard.swift; sourceTree = "<group>"; };
+		5E51F0FE29F41B05005B03DC /* TuiCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCarouselView.swift; sourceTree = "<group>"; };
+		5E51F10029F41C81005B03DC /* TuiCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCarouselCell.swift; sourceTree = "<group>"; };
+		5E51F10529F41FC6005B03DC /* TuiCarouselViewPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCarouselViewPreviewViewController.swift; sourceTree = "<group>"; };
+		5E51F10629F41FC6005B03DC /* TuiCarouselViewPreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCarouselViewPreviewModel.swift; sourceTree = "<group>"; };
+		5E51F10729F41FC6005B03DC /* TuiCarouselViewPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuiCarouselViewPreviewViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E51F0B029F3DAB7005B03DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E51F0AA29F3DAB7005B03DC = {
+			isa = PBXGroup;
+			children = (
+				5E51F0CA29F3DB14005B03DC /* Packages */,
+				5E51F0B529F3DAB7005B03DC /* itTinkof2023App */,
+				5E51F0B429F3DAB7005B03DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E51F0B429F3DAB7005B03DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0B329F3DAB7005B03DC /* itTinkof2023App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E51F0B529F3DAB7005B03DC /* itTinkof2023App */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0B629F3DAB7005B03DC /* AppDelegate.swift */,
+				5E51F0B829F3DAB7005B03DC /* SceneDelegate.swift */,
+				5E51F0CC29F3DBA9005B03DC /* Screens */,
+				5E51F0D529F3DED9005B03DC /* UI */,
+				5E51F0DA29F3E11C005B03DC /* Resources */,
+				5E51F0BF29F3DAB9005B03DC /* Assets.xcassets */,
+				5E51F0C129F3DAB9005B03DC /* LaunchScreen.storyboard */,
+				5E51F0C429F3DAB9005B03DC /* Info.plist */,
+			);
+			path = itTinkof2023App;
+			sourceTree = "<group>";
+		};
+		5E51F0CA29F3DB14005B03DC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		5E51F0CC29F3DBA9005B03DC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0E129F40532005B03DC /* InitialScreen */,
+				5E51F0E229F40539005B03DC /* TuiCardPreview */,
+				5E51F0E329F40545005B03DC /* TuiTitleCardPreview */,
+				5E51F0F229F4113C005B03DC /* TuiCardStackPreview */,
+				5E51F10229F41FA6005B03DC /* TuiCarouselViewPreview */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5E51F0D529F3DED9005B03DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0D629F3DEF0005B03DC /* TuiCard.swift */,
+				5E51F0D829F3E039005B03DC /* TuiButton.swift */,
+				5E51F0FB29F41442005B03DC /* TuiTitleSlimCard.swift */,
+				5E51F0DF29F4009B005B03DC /* TuiTitleCard.swift */,
+				5E51F0F029F40BF5005B03DC /* TuiCardStack.swift */,
+				5E51F0FD29F41AE9005B03DC /* TuiCarousel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5E51F0DA29F3E11C005B03DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0DB29F3E12C005B03DC /* Colors.swift */,
+				5E51F0DD29F3E9B0005B03DC /* Images.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E51F0E129F40532005B03DC /* InitialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0CD29F3DBBF005B03DC /* InitialScreenViewController.swift */,
+				5E51F0CF29F3DBBF005B03DC /* InitialScreenViewModel.swift */,
+				5E51F0CE29F3DBBF005B03DC /* InitialScreenModel.swift */,
+			);
+			path = InitialScreen;
+			sourceTree = "<group>";
+		};
+		5E51F0E229F40539005B03DC /* TuiCardPreview */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0E429F4056C005B03DC /* TuiCardPreviewViewController.swift */,
+				5E51F0E529F4056C005B03DC /* TuiCardPreviewModel.swift */,
+				5E51F0E629F4056C005B03DC /* TuiCardPreviewViewModel.swift */,
+			);
+			path = TuiCardPreview;
+			sourceTree = "<group>";
+		};
+		5E51F0E329F40545005B03DC /* TuiTitleCardPreview */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0EA29F407F3005B03DC /* TuiTitleCardPreviewViewController.swift */,
+				5E51F0EB29F407F3005B03DC /* TuiTitleCardPreviewModel.swift */,
+				5E51F0EC29F407F3005B03DC /* TuiTitleCardPreviewViewModel.swift */,
+			);
+			path = TuiTitleCardPreview;
+			sourceTree = "<group>";
+		};
+		5E51F0F229F4113C005B03DC /* TuiCardStackPreview */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0F329F41152005B03DC /* TuiCardStackPreviewViewController.swift */,
+				5E51F0F429F41152005B03DC /* TuiCardStackPreviewModel.swift */,
+				5E51F0F529F41152005B03DC /* TuiCardStackPreviewViewModel.swift */,
+			);
+			path = TuiCardStackPreview;
+			sourceTree = "<group>";
+		};
+		5E51F0FD29F41AE9005B03DC /* TuiCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F0FE29F41B05005B03DC /* TuiCarouselView.swift */,
+				5E51F10029F41C81005B03DC /* TuiCarouselCell.swift */,
+			);
+			path = TuiCarousel;
+			sourceTree = "<group>";
+		};
+		5E51F10229F41FA6005B03DC /* TuiCarouselViewPreview */ = {
+			isa = PBXGroup;
+			children = (
+				5E51F10529F41FC6005B03DC /* TuiCarouselViewPreviewViewController.swift */,
+				5E51F10629F41FC6005B03DC /* TuiCarouselViewPreviewModel.swift */,
+				5E51F10729F41FC6005B03DC /* TuiCarouselViewPreviewViewModel.swift */,
+			);
+			path = TuiCarouselViewPreview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E51F0B229F3DAB7005B03DC /* itTinkof2023App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E51F0C729F3DAB9005B03DC /* Build configuration list for PBXNativeTarget "itTinkof2023App" */;
+			buildPhases = (
+				5E51F0AF29F3DAB7005B03DC /* Sources */,
+				5E51F0B029F3DAB7005B03DC /* Frameworks */,
+				5E51F0B129F3DAB7005B03DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itTinkof2023App;
+			productName = itTinkof2023App;
+			productReference = 5E51F0B329F3DAB7005B03DC /* itTinkof2023App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E51F0AB29F3DAB7005B03DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5E51F0B229F3DAB7005B03DC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5E51F0AE29F3DAB7005B03DC /* Build configuration list for PBXProject "itTinkof2023App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E51F0AA29F3DAB7005B03DC;
+			productRefGroup = 5E51F0B429F3DAB7005B03DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E51F0B229F3DAB7005B03DC /* itTinkof2023App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E51F0B129F3DAB7005B03DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E51F0C329F3DAB9005B03DC /* LaunchScreen.storyboard in Resources */,
+				5E51F0C029F3DAB9005B03DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E51F0AF29F3DAB7005B03DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E51F0B729F3DAB7005B03DC /* AppDelegate.swift in Sources */,
+				5E51F0ED29F407F3005B03DC /* TuiTitleCardPreviewViewController.swift in Sources */,
+				5E51F0E029F4009B005B03DC /* TuiTitleCard.swift in Sources */,
+				5E51F0E929F4056C005B03DC /* TuiCardPreviewViewModel.swift in Sources */,
+				5E51F0DC29F3E12C005B03DC /* Colors.swift in Sources */,
+				5E51F0FF29F41B05005B03DC /* TuiCarouselView.swift in Sources */,
+				5E51F0F129F40BF5005B03DC /* TuiCardStack.swift in Sources */,
+				5E51F10A29F41FC6005B03DC /* TuiCarouselViewPreviewViewModel.swift in Sources */,
+				5E51F0E829F4056C005B03DC /* TuiCardPreviewModel.swift in Sources */,
+				5E51F0D029F3DBBF005B03DC /* InitialScreenViewController.swift in Sources */,
+				5E51F10829F41FC6005B03DC /* TuiCarouselViewPreviewViewController.swift in Sources */,
+				5E51F0D129F3DBBF005B03DC /* InitialScreenModel.swift in Sources */,
+				5E51F0FC29F41442005B03DC /* TuiTitleSlimCard.swift in Sources */,
+				5E51F0DE29F3E9B0005B03DC /* Images.swift in Sources */,
+				5E51F0D229F3DBBF005B03DC /* InitialScreenViewModel.swift in Sources */,
+				5E51F0D729F3DEF0005B03DC /* TuiCard.swift in Sources */,
+				5E51F10129F41C81005B03DC /* TuiCarouselCell.swift in Sources */,
+				5E51F0E729F4056C005B03DC /* TuiCardPreviewViewController.swift in Sources */,
+				5E51F0F829F41152005B03DC /* TuiCardStackPreviewViewModel.swift in Sources */,
+				5E51F0B929F3DAB7005B03DC /* SceneDelegate.swift in Sources */,
+				5E51F0EF29F407F3005B03DC /* TuiTitleCardPreviewViewModel.swift in Sources */,
+				5E51F0EE29F407F3005B03DC /* TuiTitleCardPreviewModel.swift in Sources */,
+				5E51F0D929F3E039005B03DC /* TuiButton.swift in Sources */,
+				5E51F10929F41FC6005B03DC /* TuiCarouselViewPreviewModel.swift in Sources */,
+				5E51F0F729F41152005B03DC /* TuiCardStackPreviewModel.swift in Sources */,
+				5E51F0F629F41152005B03DC /* TuiCardStackPreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E51F0C129F3DAB9005B03DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E51F0C229F3DAB9005B03DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E51F0C529F3DAB9005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E51F0C629F3DAB9005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E51F0C829F3DAB9005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU6627WB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = itTinkof2023App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romik.itTinkof2023App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E51F0C929F3DAB9005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU6627WB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = itTinkof2023App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = romik.itTinkof2023App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E51F0AE29F3DAB7005B03DC /* Build configuration list for PBXProject "itTinkof2023App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E51F0C529F3DAB9005B03DC /* Debug */,
+				5E51F0C629F3DAB9005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E51F0C729F3DAB9005B03DC /* Build configuration list for PBXNativeTarget "itTinkof2023App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E51F0C829F3DAB9005B03DC /* Debug */,
+				5E51F0C929F3DAB9005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E51F0AB29F3DAB7005B03DC /* Project object */;
+}
